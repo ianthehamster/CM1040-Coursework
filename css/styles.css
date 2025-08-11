@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+a.btn:hover {
+  background-color: #e85c50;
+  transform: translateY(-2px);
+}
+
+/* Theme 1: Dial-up Era (Retro Blue) */
+.btn-dialup {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.btn-dialup:hover {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+/* Theme 2: Broadband & Wireless@SG (Modern Teal) */
+.btn-broadband {
+  background: linear-gradient(135deg, #14b8a6, #0d9488);
+}
+.btn-broadband:hover {
+  background: linear-gradient(135deg, #0d9488, #0f766e);
+}
+
+/* Theme 3: Mobile & 5G (Neon Green) */
+.btn-5g {
+  background: linear-gradient(135deg, hsl(323, 71%, 45%), #f00abe);
+}
+.btn-5g:hover {
+  background: linear-gradient(135deg, #6e0866, #621580);
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  padding: 5px 0;
+}
+
+.year {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-links {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+    justify-content: space-between;
+  }
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .menu-links.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}

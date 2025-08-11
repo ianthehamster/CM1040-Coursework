@@ -1,0 +1,8 @@
+[
+  { "year": 1998, "event": "SingNet introduces dial-up internet nationwide" },
+  { "year": 2000, "event": "SingTel Magix launches ADSL broadband" },
+  {
+    "year": 2001,
+    "event": "Pacific Internet offers unlimited broadband plans"
+  }
+]
