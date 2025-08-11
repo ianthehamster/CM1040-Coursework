@@ -66,5 +66,6 @@ project-root/
 
 5. Navigate through the website in your browser.
 
-📄 License
+## 📄 License
+
 This project is for educational purposes only.
