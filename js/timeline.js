@@ -20,7 +20,9 @@ async function loadTimeline(jsonFile) {
       btn.textContent = item.year;
 
       btn.addEventListener('click', () => {
-        eventBox.textContent = item.event;
+        eventBox.innerHTML = `<h3>${item.year}: ${item.event}</h3>
+        <p>${item.details}</p>
+        `;
 
         imgBox.innerHTML = `<img src="${item.image}" alt="Event ${item.year}">`;
       });

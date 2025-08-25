@@ -2,32 +2,38 @@
   {
     "year": 1998,
     "event": "SingNet introduces dial-up internet nationwide",
-    "image": "images/dialup-1998.jpg"
+    "image": "images/dialup-1998.jpg",
+    "details": "Dial-up access became available to households across Singapore, marking the beginning of widespread consumer internet use. Connections were slow at 56 kbps and charged by the minute, which limited online activity mainly to email and text browsing."
   },
   {
     "year": 1999,
     "event": "Cyberway acquired by SingTel",
-    "image": "images/dialup-1999.jpg"
+    "image": "images/dialup-1999.jpg",
+    "details": "SingTel consolidated its market presence by acquiring Cyberway, one of Singapore’s early ISPs. This move allowed SingTel to strengthen its broadband strategy and expand its user base significantly."
   },
   {
     "year": 2000,
     "event": "SingTel Magix launches ADSL broadband",
-    "image": "images/dialup-2000.jpg"
+    "image": "images/dialup-2000.jpg",
+    "details": "The launch of ADSL offered always-on internet access with faster speeds compared to dial-up. This was a turning point for home internet, enabling longer usage sessions and multimedia content."
   },
 
   {
     "year": 2001,
     "event": "Pacific Internet offers unlimited broadband plans",
-    "image": "images/dialup-2001.jpg"
+    "image": "images/dialup-2001.jpg",
+    "details": "For the first time, users were no longer restricted by per-minute charges, making internet access more affordable and predictable. This change encouraged heavier usage and sparked rapid adoption of broadband services."
   },
   {
     "year": 2002,
     "event": "Government promotes home internet adoption in schools",
-    "image": "images/dialup-2002.jpg"
+    "image": "images/dialup-2002.jpg",
+    "details": "The Ministry of Education began initiatives to encourage computer ownership and internet use among students. This effort aimed to reduce the digital divide and prepare young Singaporeans for the information age."
   },
   {
     "year": 2003,
     "event": "StarHub enters the broadband market",
-    "image": "images/dialup-2003.jpg"
+    "image": "images/dialup-2003.jpg",
+    "details": "StarHub’s entry increased competition in the ISP sector, driving down prices and improving service quality. With more options, consumers benefited from faster connections and better value broadband packages."
   }
 ]
