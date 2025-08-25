@@ -1,8 +1,33 @@
 [
-  { "year": 1998, "event": "SingNet introduces dial-up internet nationwide" },
-  { "year": 2000, "event": "SingTel Magix launches ADSL broadband" },
+  {
+    "year": 1998,
+    "event": "SingNet introduces dial-up internet nationwide",
+    "image": "images/dialup-1998.jpg"
+  },
+  {
+    "year": 1999,
+    "event": "Cyberway acquired by SingTel",
+    "image": "images/dialup-1999.jpg"
+  },
+  {
+    "year": 2000,
+    "event": "SingTel Magix launches ADSL broadband",
+    "image": "images/dialup-2000.jpg"
+  },
+
   {
     "year": 2001,
-    "event": "Pacific Internet offers unlimited broadband plans"
+    "event": "Pacific Internet offers unlimited broadband plans",
+    "image": "images/dialup-2001.jpg"
+  },
+  {
+    "year": 2002,
+    "event": "Government promotes home internet adoption in schools",
+    "image": "images/dialup-2002.jpg"
+  },
+  {
+    "year": 2003,
+    "event": "StarHub enters the broadband market",
+    "image": "images/dialup-2003.jpg"
   }
 ]
